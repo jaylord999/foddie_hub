@@ -1,0 +1,159 @@
+
+body {
+
+font-family: Arial, sans-serif;
+
+margin: 0;
+
+padding: 0;
+
+background-color: white;
+
+line-height: 1.6;
+
+}
+
+
+
+/* Main Container */
+.main-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.content {
+    flex: 3;
+    padding-right: 20px;
+}
+
+    .sidebar {
+width: 200px; /* Adjusted width for a smaller sidebar */
+background-color: #f8f9fa;
+padding: 20px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+}
+
+
+    h1 {
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
+
+    h2, h3 {
+        font-size: 1.5em;
+        margin-top: 20px;
+        color: #141414;
+    }
+
+    p {
+        margin: 10px 0;
+        text-indent: 40px; /* Adds text indentation */
+    }
+
+    blockquote {
+        font-size: 1.2em;
+        font-style: italic;
+        color: #555;
+        border-left: 4px solid #007bff;
+        padding-left: 15px;
+        margin: 20px 0;
+        background-color: #f9f9f9;
+    }
+
+    .highlight {
+        color: #d9534f; /* Red color for highlighting */
+        font-weight: bold;
+    }
+
+    .solution {
+        color: #5cb85c; /* Green color for solutions */
+        font-weight: bold;
+    }
+
+    .cta-button {
+        display: inline-block;
+        background-color: #f5f7fa;
+        color: rgb(17, 15, 15);
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    .cta-button:hover {
+        background-color: #c5d3e2;
+    }
+
+    footer {
+background-color: #f0f0f0;
+padding: 20px;
+text-align: center;
+font-size: 0.9em;
+color: #555;
+}
+
+.footer-container {
+max-width: 1200px;
+margin: 0 auto;
+}
+
+footer p, footer a {
+color: #555;
+margin: 5px 0;
+}
+
+.social-media a, .quick-links a {
+color: #007bff;
+text-decoration: none;
+margin: 0 5px;
+}
+
+.social-media a:hover, .quick-links a:hover {
+text-decoration: underline;
+}
+
+.newsletter {
+margin-top: 15px;
+}
+
+.newsletter input[type="email"] {
+padding: 8px;
+font-size: 0.9em;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.newsletter button {
+padding: 8px 15px;
+background-color: #007bff;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.newsletter button:hover {
+background-color: #0056b3;
+}
+
+css
+
+Copy
+    h4{
+        text-indent: 120px;
+        font-size: 30px;
+    }
+    a {
+color: #007bff;
+text-decoration: underline;
+}
+
+a:hover {
+color: #0056b3;
+}
+
+
